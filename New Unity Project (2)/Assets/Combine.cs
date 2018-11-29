@@ -25,7 +25,7 @@ public class Combine : MonoBehaviour
             || col.gameObject.tag.Equals("Fruits")
             || col.gameObject.tag.Equals("drinks"))
         {
-            col.gameObject.transform.parent = this.transform;
+            //col.gameObject.transform.parent = this.transform;
             stuff_count++;
 
             if (col.gameObject.tag.Equals("Foods"))

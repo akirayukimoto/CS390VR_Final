@@ -1018,6 +1018,10 @@ Prefab:
       propertyPath: m_Name
       value: BP_cola_color_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1618439066370834, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
+      propertyPath: m_TagString
+      value: drinks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
   m_IsPrefabAsset: 0
@@ -1058,7 +1062,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4450394805621702, guid: 977bc03e54089ef45874db256471f61f, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4450394805621702, guid: 977bc03e54089ef45874db256471f61f, type: 2}
       propertyPath: m_LocalScale.x
@@ -1524,7 +1528,7 @@ GameObject:
   - component: {fileID: 204952556}
   m_Layer: 0
   m_Name: BP_cola_color_2 (1)
-  m_TagString: Untagged
+  m_TagString: drinks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1537,7 +1541,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 204952554}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.411, y: 1.345, z: -15.5571}
+  m_LocalPosition: {x: 4.411, y: 1.345, z: -15.367}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 829857672}
@@ -2850,6 +2854,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1875032750658116, guid: 99b15049619aba348bc855efa7827843, type: 2}
+      propertyPath: m_TagString
+      value: drinks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99b15049619aba348bc855efa7827843, type: 2}
   m_IsPrefabAsset: 0
@@ -3016,6 +3024,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1619506378958066, guid: e081e94920921be439a07a9052aba410, type: 2}
+      propertyPath: m_TagString
+      value: drinks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e081e94920921be439a07a9052aba410, type: 2}
   m_IsPrefabAsset: 0
@@ -3158,7 +3170,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4099133685091044, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.444
+      value: -15.354
       objectReference: {fileID: 0}
     - target: {fileID: 4099133685091044, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3183,6 +3195,10 @@ Prefab:
     - target: {fileID: 1618439066370834, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
       propertyPath: m_Name
       value: BP_cola_color_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618439066370834, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
+      propertyPath: m_TagString
+      value: drinks
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
@@ -3878,7 +3894,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4537283535069962, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.462
+      value: -15.506
       objectReference: {fileID: 0}
     - target: {fileID: 4537283535069962, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -3899,6 +3915,10 @@ Prefab:
     - target: {fileID: 4537283535069962, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 2}
       propertyPath: m_RootOrder
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1726205648425790, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 2}
+      propertyPath: m_TagString
+      value: drinks
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 2}
@@ -5435,7 +5455,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 2.3336918
+      value: 2.51
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 2}
       propertyPath: m_LocalPosition.y
@@ -5443,7 +5463,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.482
+      value: -15.391
       objectReference: {fileID: 0}
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 2}
       propertyPath: m_LocalRotation.x
@@ -5468,6 +5488,10 @@ Prefab:
     - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 2}
       propertyPath: m_Name
       value: BP_beer_color_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 2}
+      propertyPath: m_TagString
+      value: drinks
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 2}
@@ -6541,7 +6565,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 951091272}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.027, y: 0.8747, z: -6.915}
+  m_LocalPosition: {x: -0.748, y: 0.954, z: 3.494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1821971303}
@@ -7902,6 +7926,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1202142091014386, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 2}
+      propertyPath: m_TagString
+      value: drinks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e654c46a1675d54b9f49922393cbc7a, type: 2}
   m_IsPrefabAsset: 0
@@ -8163,6 +8191,10 @@ Prefab:
     - target: {fileID: 4246941288697392, guid: ac18017692e94344896239e6fc57f757, type: 2}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1441134368620514, guid: ac18017692e94344896239e6fc57f757, type: 2}
+      propertyPath: m_TagString
+      value: drinks
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac18017692e94344896239e6fc57f757, type: 2}
@@ -8987,7 +9019,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4950153310883960, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.477
+      value: -15.357
       objectReference: {fileID: 0}
     - target: {fileID: 4950153310883960, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9008,6 +9040,10 @@ Prefab:
     - target: {fileID: 4950153310883960, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 2}
       propertyPath: m_RootOrder
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1740800178679210, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 2}
+      propertyPath: m_TagString
+      value: drinks
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2b0b8d1f1f226447a256ffd8f359ac6, type: 2}
@@ -9437,7 +9473,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4537283535069962, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.462
+      value: -15.337
       objectReference: {fileID: 0}
     - target: {fileID: 4537283535069962, guid: 7996ebb136a5c4145a4dcb447baac36c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -9526,6 +9562,10 @@ Prefab:
       propertyPath: m_Name
       value: BP_cola_color_2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1833911611821210, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 2}
+      propertyPath: m_TagString
+      value: drinks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 2}
   m_IsPrefabAsset: 0
@@ -9579,6 +9619,10 @@ Prefab:
     - target: {fileID: 4099133685091044, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618439066370834, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
+      propertyPath: m_TagString
+      value: drinks
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e93f58dd3056fe4aa19efb40848d1aa, type: 2}
@@ -12984,7 +13028,7 @@ Transform:
   - {fileID: 1206290760}
   - {fileID: 1703616246}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1834521787
 Prefab:
@@ -13214,6 +13258,10 @@ Prefab:
     - target: {fileID: 4161084484716844, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1833911611821210, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 2}
+      propertyPath: m_TagString
+      value: drinks
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28aeb2a4fbfc23e4690286e16e6a332b, type: 2}
@@ -13555,6 +13603,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: 1378386091579306, guid: 88673c0edbd665848b6e83fead8c66c5, type: 2}
+      propertyPath: m_TagString
+      value: drinks
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 88673c0edbd665848b6e83fead8c66c5, type: 2}
   m_IsPrefabAsset: 0
@@ -13651,6 +13703,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stuff_count: 0
+  num_fruits: 0
+  num_foods: 0
+  num_drinks: 0
+  total_price: 0
 --- !u!114 &1880880074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15601,7 +15657,7 @@ GameObject:
   - component: {fileID: 2058712306}
   m_Layer: 0
   m_Name: BP_beer_color_2 (1)
-  m_TagString: Untagged
+  m_TagString: drinks
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

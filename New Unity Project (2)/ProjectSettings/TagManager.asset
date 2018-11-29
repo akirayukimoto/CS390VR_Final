@@ -9,6 +9,7 @@ TagManager:
   - FxTemporaire
   - projectile
   - Food
+  - drinks
   layers:
   - Default
   - TransparentFX
