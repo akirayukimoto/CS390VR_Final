@@ -19,7 +19,8 @@ public class Combine : MonoBehaviour
     void OnCollisionEnter(Collision col)
     {
         if (col.gameObject.tag.Equals("Foods")
-            || col.gameObject.tag.Equals("Fruits"))
+            || col.gameObject.tag.Equals("Fruits")
+            || col.gameObject.tag.Equals("drinks"))
         {
             col.gameObject.transform.parent = this.transform;
             stuff_count++;
