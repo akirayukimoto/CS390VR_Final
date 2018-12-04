@@ -11,6 +11,7 @@ public class BackToShop : MonoBehaviour {
         Button btn = btn_obj.GetComponent<Button>();
         btn.onClick.AddListener(delegate ()
         {
+
             this.GoNextScene(btn_obj);
         });
     }
@@ -22,6 +23,8 @@ public class BackToShop : MonoBehaviour {
 
     public void GoNextScene(GameObject Nscene)
     {
+        GameObject obj = GameObject.Find("ShoppingCart");
+        Destroy(obj);
         Application.LoadLevel("SampleScene");
     }
 }
