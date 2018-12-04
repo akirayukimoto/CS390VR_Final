@@ -41,6 +41,8 @@ public class Combine : MonoBehaviour
                 num_drinks++;
             }
             total_price = num_fruits * 3 + num_foods * 5 + num_drinks * 3;
+
+            col.gameObject.transform.parent = this.transform;
         }
         if (stuff_count == 2)
         {
