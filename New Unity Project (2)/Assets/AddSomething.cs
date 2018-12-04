@@ -17,5 +17,6 @@ public class AddSomething : MonoBehaviour {
     void OnTriggerEnter(Collider col)
     {
         //Debug.Log(col.gameObject.tag);
+        col.gameObject.transform.parent = this.transform;
     }
 }

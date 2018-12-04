@@ -42,11 +42,13 @@ public class Combine : MonoBehaviour
             }
             total_price = num_fruits * 3 + num_foods * 5 + num_drinks * 3;
 
-            col.gameObject.transform.parent = this.transform;
+            
             //col.gameObject.rigidbody
+
             Rigidbody rb = col.gameObject.GetComponent<Rigidbody>();
             rb.isKinematic = false;
-            rb.detectCollisions = true;
+            //rb.detectCollisions = true;
+            col.gameObject.transform.parent = this.transform;
         }
         if (stuff_count == 2)
         {
