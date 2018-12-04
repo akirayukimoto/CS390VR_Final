@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HoldCart : MonoBehaviour {
+public class HoldCart : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-        DontDestroyOnLoad(transform.gameObject);
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    void Awake()
+    {
+        //GameObject obj = GameObject.Find("ShoppingCart");
+        DontDestroyOnLoad(this.gameObject);
+    }
 }
