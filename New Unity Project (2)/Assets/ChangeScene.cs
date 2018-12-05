@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour {
 
@@ -22,6 +23,6 @@ public class ChangeScene : MonoBehaviour {
 
     public void GoNextScene(GameObject Nscene)
     {
-        Application.LoadLevel("Checkout");
+       SceneManager.LoadScene("Checkout");
     }
 }

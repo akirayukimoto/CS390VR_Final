@@ -19,8 +19,8 @@ namespace HTC.UnityPlugin.Vive
             Grip,
         }
 
-        public Transform target;  // The actual transfrom that will be moved Ex. CameraRig
-        public Transform pivot;  // The actual pivot point that want to be teleported to the pointed location Ex. CameraHead
+        public Transform target = Camera.main.transform;  // The actual transfrom that will be moved Ex. CameraRig
+        public Transform pivot = Camera.main.transform;  // The actual pivot point that want to be teleported to the pointed location Ex. CameraHead
         public float fadeDuration = 0.3f;
         [SerializeField]
         private Material m_reticleMaterial;
