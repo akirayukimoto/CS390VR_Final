@@ -16,13 +16,7 @@ public class HitFloor : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        //int i = 0;
-        //while (i < col.gameObject.transform.childCount)
-        //{
-         //   Transform trans = col.gameObject.transform.GetChild(i);
-          //  Destroy(trans.gameObject.GetComponent("Basic Grabbable"));
-          //  i++;
-        //}
-        col.gameObject.transform.DetachChildren(); 
+        if (col.gameObject.name.Equals("ShoppingCart"))
+            col.gameObject.transform.DetachChildren(); 
     }
 }

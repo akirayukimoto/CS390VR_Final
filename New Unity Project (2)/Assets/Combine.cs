@@ -48,6 +48,8 @@ public class Combine : MonoBehaviour
             Rigidbody rb = col.gameObject.GetComponent<Rigidbody>();
             rb.isKinematic = false;
             //rb.detectCollisions = true;
+            //col.gameObject.GetComponent<Rigidbody>.enabled = false;
+            //rb.enabled = false;
             col.gameObject.transform.parent = this.transform;
         }
         if (stuff_count == 2)
