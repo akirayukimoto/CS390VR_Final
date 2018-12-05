@@ -16,7 +16,9 @@ public class HitFloor : MonoBehaviour {
 
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.name.Equals("ShoppingCart"))
-            col.gameObject.transform.DetachChildren(); 
+        if (col.gameObject.name.Equals("ShoppingCart")) {
+            col.gameObject.transform.DetachChildren();
+           // Destroy(col.gameObject);
+        }
     }
 }
