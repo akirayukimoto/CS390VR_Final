@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class AddSomething : MonoBehaviour
 {
     public Text text;
+    public Text text2;
     // Use this for initialization
     void Start()
     {
@@ -16,6 +17,7 @@ public class AddSomething : MonoBehaviour
     void Update()
     {
         int total = 0;
+        int count = 0;
         foreach (Transform child in this.gameObject.transform)
         {
             if (child.name.Equals("ShoppingCart"))
@@ -23,11 +25,22 @@ public class AddSomething : MonoBehaviour
             }
             else
             {
-                total++;
+                //total++;
+                if (child.tag.Equals("Fruits"))
+                {
+                    total = total + 2;
+                }
+                else
+                {
+                    total++;
+
+                }
+
+                count++;
             }
 
         }
-        text.text = "Curr:" + total.ToString();
-
+        text.text = "Price:" + total.ToString();
+        text2.text = "Count: " + count.ToString();
     }
 }
