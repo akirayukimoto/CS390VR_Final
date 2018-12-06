@@ -12,6 +12,7 @@ TagManager:
   - drinks
   - lb_bird
   - Tools
+  - Others
   layers:
   - Default
   - TransparentFX
