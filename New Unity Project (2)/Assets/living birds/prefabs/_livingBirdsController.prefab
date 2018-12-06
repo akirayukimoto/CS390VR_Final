@@ -40,8 +40,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35acec13e92dc0846a893a2496fea9f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idealNumberOfBirds: 20
-  maximumNumberOfBirds: 40
+  idealNumberOfBirds: 1
+  maximumNumberOfBirds: 5
   currentCamera: {fileID: 0}
   unspawnDistance: 10
   highQuality: 1
