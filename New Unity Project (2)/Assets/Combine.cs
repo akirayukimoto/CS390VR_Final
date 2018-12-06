@@ -50,7 +50,12 @@ public class Combine : MonoBehaviour
             //rb.detectCollisions = true;
             //col.gameObject.GetComponent<Rigidbody>.enabled = false;
             //rb.enabled = false;
-            col.gameObject.transform.parent = this.transform;
+            if (col.gameObject.tag.Equals("Fruits"))
+            {
+                col.gameObject.transform.DetachChildren();
+                col.gameObject.transform.parent = this.transform;
+
+            }
         }
         if (stuff_count == 2)
         {
