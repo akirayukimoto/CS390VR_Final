@@ -33,18 +33,22 @@ public class counter : MonoBehaviour {
             if (col.gameObject.CompareTag("Foods"))
             {
                 num_foods++;
+                SetCountText();
             }
             else if (col.gameObject.CompareTag("Fruits"))
             {
                 num_fruits++;
+                SetCountText();
             }
             else if (col.gameObject.CompareTag("drinks"))
             {
                 num_drinks++;
+                SetCountText();
             }
             total_price = num_fruits * 3 + num_foods * 5 + num_drinks * 3;
-            SetCountText();
+            
         }
+       // SetCountText();
     }
     void SetCountText()
     {
