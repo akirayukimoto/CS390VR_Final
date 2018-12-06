@@ -25,6 +25,8 @@ public class BackToShop : MonoBehaviour {
     {
         GameObject obj = GameObject.Find("ShoppingCart");
         Destroy(obj);
+        GameObject obj_2 = GameObject.Find("Count_Canvas");
+        Destroy(obj_2);
         Application.LoadLevel("SampleScene");
     }
 }
