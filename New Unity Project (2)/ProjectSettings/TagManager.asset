@@ -10,6 +10,8 @@ TagManager:
   - projectile
   - Food
   - drinks
+  - lb_bird
+  - Tools
   layers:
   - Default
   - TransparentFX
